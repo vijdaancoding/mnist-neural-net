@@ -30,7 +30,7 @@ def preprocess_image(image):
 def predict_digit(image):
     prediction = model.predict(image)
     digit = np.argmax(prediction)
-    pdb.set_trace()  # Set a breakpoint
+    #pdb.set_trace()  # Set a breakpoint
     digit = str(digit)
     digit = int(digit)
     return digit
