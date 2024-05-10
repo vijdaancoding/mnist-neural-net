@@ -9,7 +9,37 @@ The documentations of the process that took place when implementing each of thes
 
 ## PDB
 
+### Debugging and Deployment
+The application includes a debugging breakpoint using the pdb module, allowing for easy debugging and troubleshooting. The application is designed to be deployed as a web application, making it accessible and user-friendly for a wide range of users. Overall, the MNIST digit recognition application demonstrates the effective deployment of machine learning models using Streamlit and TensorFlow.
 
+
+We have the module pdb from python to set a break-point where might exist an error. Here is the screenshot of the breakpoint:
+
+
+
+![image](https://github.com/vijdaancoding/mnist-neural-net/assets/125562989/9c0af30f-8eb4-40c9-b297-4b3872193143)
+
+After we set the breakpoint our program flow stops at the break-point and we can easily debug the issues, here we have find the potential issue and fixed it i.e returning the digit as integar , it was returned as string before we debugged the code. Here see in the terminal:
+The application includes a debugging breakpoint using the pdb module, allowing for easy debugging and troubleshooting. The application is designed to be deployed as a web application, making it accessible and user-friendly for a wide range of users. Overall, the MNIST digit recognition application demonstrates the effective deployment of machine learning models using Streamlit and TensorFlow.
+
+
+We have the module pdb from python to set a break-point where might exist an error. Here is the screenshot of the breakpoint:
+
+
+![image](https://github.com/vijdaancoding/mnist-neural-net/assets/125562989/9c0af30f-8eb4-40c9-b297-4b3872193143)
+
+
+After we set the breakpoint our program flow stops at the break-point and we can easily debug the issues, here we have find the potential issue and fixed it i.e returning the digit as integar , it was returned as string before we debugged the code. Here see in the terminal:
+
+
+
+![image](https://github.com/vijdaancoding/mnist-neural-net/assets/125562989/90200c04-5893-4796-af96-09c28208c122)
+
+
+After we fix our issue we simply write the command continue in the terminal as shown:
+
+
+![image](https://github.com/vijdaancoding/mnist-neural-net/assets/125562989/3a012c99-b55b-4bdc-af87-03c706ee6d10)
 
 
 
@@ -57,6 +87,9 @@ The docker container also includes all the required libraries that go into makin
 Through the docker build command in vscode we were able to make a docker container on our local device. Then we uploaded the container on the DockerHub via Docker Desktop. To veiw the contianer on the Hub click [here](https://hub.docker.com/repository/docker/vijdaancoding/mnist-streamlit/general)
 
 ![docker ss 3](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/9b2f9ac9-3c2c-4eb5-9877-0ff3e1920ea7)
+
+
+
 
 
 
