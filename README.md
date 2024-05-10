@@ -2,9 +2,9 @@
 This is a practice repository solely made for having fun with PDB, GitBash and Docker. 
 
 The documentations of the process that took place when implementing each of these is located here:
-1. PDB
-2. GitBash
-3. Docker
+1. [PDB](pdb)
+2. [GitBash](gitbash)
+3. [Docker](docker)
 
 
 ## PDB
@@ -36,4 +36,5 @@ When satisfied with our current code and setup we pushed our code from our local
 ![git ss 4](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/77c0000f-09ab-44f7-942f-bc032e40cb0d)
 
 
+## Docker
 
