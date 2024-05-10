@@ -38,3 +38,20 @@ When satisfied with our current code and setup we pushed our code from our local
 
 ## Docker
 
+### Docker File
+To create a Docker container and push it to hub we first created a Dockerfile in VSCode 
+
+![docker ss 1](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/5f4c6cc4-41ba-450f-b87c-13b958d5fb22)
+
+### Requirements File
+The docker container also includes all the required libraries that go into making your code run hence a requirements.txt file is necessary. 
+
+![docker ss 2](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/c16ce79c-8256-4df2-ad1a-49e887b7c02d)
+
+### Creating the Docker Container
+Through the docker build command in vscode we were able to make a docker container on our local device. Then we uploaded the container on the DockerHub via Docker Desktop. To veiw the contianer on the Hub click [here](https://hub.docker.com/repository/docker/vijdaancoding/mnist-streamlit/general)
+
+![docker ss 3](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/9b2f9ac9-3c2c-4eb5-9877-0ff3e1920ea7)
+
+
+
