@@ -35,6 +35,11 @@ When satisfied with our current code and setup we pushed our code from our local
 
 ![git ss 4](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/77c0000f-09ab-44f7-942f-bc032e40cb0d)
 
+### Git Log
+The following is a graphical representation of the git log
+
+![image](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/ed414edd-418b-48e3-b44f-c6b5484cad69)
+
 
 ## Docker
 
