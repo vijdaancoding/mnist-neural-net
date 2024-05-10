@@ -88,6 +88,16 @@ Through the docker build command in vscode we were able to make a docker contain
 
 ![docker ss 3](https://github.com/vijdaancoding/mnist-neural-net/assets/131896316/9b2f9ac9-3c2c-4eb5-9877-0ff3e1920ea7)
 
+### Running the docker container from Docker hub on a local PC
+
+
+![image (2)](https://github.com/vijdaancoding/mnist-neural-net/assets/125562989/35d57cdc-91dd-445d-ae2e-5ac66b5f9abe)
+
+
+Here you can see our application is up and running 
+
+![image (3)](https://github.com/vijdaancoding/mnist-neural-net/assets/125562989/a9d6360c-ff83-48bd-9079-502a8cb7c71a)
+
 
 
 
